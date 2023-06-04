@@ -14,13 +14,13 @@ variables:
   webAppName: 'python-cicd-1049'
 
   # Agent VM image name
-  vmImageName: 'ubuntu-latest'
+  vmImageName: 'ubuntu-18.04'
 
   # Environment name
   environmentName: 'python-cicd-1049'
 
   # Project root folder. Point to the folder containing manage.py file.
-  projectRoot: $(System.DefaultWorkingDirectory)//Application
+  projectRoot: $(System.DefaultWorkingDirectory)/Application
 
   # Python version: 3.9
   pythonVersion: '3.9'
