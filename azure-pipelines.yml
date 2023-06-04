@@ -14,7 +14,7 @@ variables:
   webAppName: 'python-cicd-1049'
 
   # Agent VM image name
-  vmImageName: 'ubuntu-18.04'
+  vmImageName: 'ubuntu-latest'
 
   # Environment name
   environmentName: 'python-cicd-1049'
